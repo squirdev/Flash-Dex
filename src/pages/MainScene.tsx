@@ -15,6 +15,7 @@ export default function MainScene() {
 
             <LiFiWidget
                 config={{
+                    appearance: 'dark',
                     theme: {
                         container: {
                             boxShadow: '0px 8px 32px rgba(0, 0, 0, 0.08)',
