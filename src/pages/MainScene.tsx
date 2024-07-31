@@ -12,11 +12,11 @@ export default function MainScene() {
 
 
     return (
-        <div className="flex items-center justify-center h-screen w-full bg-[#06070A] ">
+        <div className="flex items-center justify-center min-h-screen w-full bg-[#06070A] ">
             <Header />
             {/* <MainPanel showModal={showModal} setShowModal={setShowModal} /> */}
 
-            <div className="w-full px-[20px]">
+            <div className="flex flex-col items-center justify-center px-[10px]">
                 <LiFiWidget
                     config={{
                         walletConfig: {

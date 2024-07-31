@@ -5,7 +5,6 @@ import FlashImg from "../../src/assets/images/flash.svg"
 import { useMediaQuery } from 'react-responsive'
 
 export default function Header() {
-    const isDesktopOrTablet = useMediaQuery({ query: '(max-width: 1224px)' })
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 500px)' })
 
     return (
@@ -20,17 +19,6 @@ export default function Header() {
                             $0.000317
                         </p>
                     </div>
-                }
-                {
-                    !isDesktopOrTablet &&
-                    <button className="flex flex-col items-center justify-center p-[10px] rounded-full border-[1px] border-white w-[132px] h-[46px]">
-                        <div className="flex flex-row items-center gap-2">
-                            <img src={HistoryImg} alt="history" />
-                            <p className="text-white text-[14px] font-Roboto font-[500]">
-                                Tx History
-                            </p>
-                        </div>
-                    </button>
                 }
                 <WalletConnectBtn />
             </div>
