@@ -20,7 +20,7 @@ export default function Header() {
                         </p>
                     </div>
                 }
-                <WalletConnectBtn />
+                {/* <WalletConnectBtn /> */}
             </div>
         </div>
     )

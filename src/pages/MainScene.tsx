@@ -19,11 +19,6 @@ export default function MainScene() {
             <div className="flex flex-col items-center justify-center px-[10px]">
                 <LiFiWidget
                     config={{
-                        walletConfig: {
-                            onConnect() {
-                                openConnectModal?.();
-                            },
-                        },
                         appearance: 'dark',
                         theme: {
                             container: {

@@ -5,9 +5,9 @@ import { Web3ModalProvider } from './Web3ModalProvider';
 
 function App() {
   return (
-    <Web3ModalProvider>
-      <MainScene />
-    </Web3ModalProvider>
+    // <Web3ModalProvider>
+    <MainScene />
+    // </Web3ModalProvider>
   );
 }
 
