@@ -28,6 +28,7 @@ export default function MainScene() {
                                 borderColor: '#444'
                             },
                         },
+                        hiddenUI: ['poweredBy']
                     }}
                     integrator="cra-example"
                 />

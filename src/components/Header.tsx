@@ -1,7 +1,7 @@
 import LogoImg from "../../src/assets/images/logo.png"
 import WalletConnectBtn from "./WalletConnectBtn"
 import HistoryImg from "../../src/assets/images/history.png"
-import FlashImg from "../../src/assets/images/flash.svg"
+import FlashImg from "../../src/assets/images/flash-icon.png"
 import { useMediaQuery } from 'react-responsive'
 
 export default function Header() {
