@@ -27,6 +27,10 @@ export default function MainScene() {
                                 borderWidth: '1px',
                                 borderColor: '#444'
                             },
+                            palette: {
+                                primary: { main: '#FCBF07' },
+                                secondary: { main: '#FCBF07' },
+                            },
                         },
                         hiddenUI: ['poweredBy']
                     }}
