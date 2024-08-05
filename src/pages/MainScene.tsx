@@ -34,7 +34,7 @@ export default function MainScene() {
                         },
                         hiddenUI: ['poweredBy']
                     }}
-                    integrator="cra-example"
+                    integrator="flash-dex"
                 />
             </div>
 
